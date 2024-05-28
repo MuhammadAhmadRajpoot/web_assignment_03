@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Muhammad Ahmad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class = "background-page-for-contact">
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo-container">
+                    <div class="profile-image">
+                        <img id="profileImg" src="WhatsApp Image 2024-05-26 at 20.05.51_fcb8ffa5.jpg" alt="Muhammad Ahmad">
+                    </div>
+                    <h1 class="logo">Muhammad Ahmad</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="welcome.html">Home</a></li>
+                    <li><a href="personalities.html">Personalities</a></li>
+                    <li><a href="cities.html">Cities</a></li>
+                    <li><a href="spots.html">Tourist Spots</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <div class="container-content">
+            <div class="contact-card">
+                <h2>Contact Us</h2>
+                <form class="contact-form" action="welcome.html" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>        
+    
+    
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">My Website</div>
+            <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/yourprofile" class="icon-linkedin" aria-label="LinkedIn"></a></li>
+                <li><a href="https://www.twitter.com/yourprofile" class="icon-twitter" aria-label="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/yourprofile" class="icon-instagram" aria-label="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/yourprofile" class="icon-facebook" aria-label="Facebook"></a></li>
+            </ul>
+            <ul class="footer-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="footer-note">© 2024 My Website. All rights reserved.</div>
+        </div>
+    </footer>
+    
+    
+
+
+    <!-- Modal for image -->
+    <div id="imgModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
